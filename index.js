@@ -21,7 +21,7 @@ if (UserAnswer === answer1) {
 }
 
 
-var questionnumber2 = "do you know Cristiano Ronaldo ? " 
+var questionnumber2 = "Do you know about Cristiano Ronaldo ? " 
 var answer2 = "yes" 
 
 var UserAnswer = readlineSync.question(questionnumber2);
@@ -48,7 +48,7 @@ var UserAnswer = readlineSync.question(questionnumber3);
 console.log ("you entered " + UserAnswer);
 
 if (UserAnswer === answer3) {
-  console.log("great!, you know the legend very well. ")
+  console.log("very few people know this. ")
   score = score + 1;
   console.log("Score is " + score);
   } else {
@@ -67,7 +67,7 @@ var UserAnswer = readlineSync.question(questionnumber4);
 console.log ("you entered " + UserAnswer);
 
 if (UserAnswer === answer4) {
-  console.log("great!, you know the legend very well. ")
+  console.log("great!, you are true fan")
   score = score + 1;
   console.log("Score is " + score);
   } else {
@@ -87,7 +87,7 @@ var UserAnswer = readlineSync.question(questionnumber5);
 console.log ("you entered " + UserAnswer);
 
 if (UserAnswer === answer5) {
-  console.log("great!, you know the legend very well. ")
+  console.log("congrats!, you know the legend very well. ")
   score = score + 1;
   console.log("Score is " + score);
   } else {
