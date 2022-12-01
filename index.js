@@ -2,7 +2,7 @@ var readlineSync = require('readline-sync');
 
 var score = 0;
 
-var questionnumber1 = "Are you love playing football ? " 
+var questionnumber1 = "Do you love football ? " 
 var answer1 = "yes" 
 
 var UserAnswer = readlineSync.question(questionnumber1);
@@ -21,7 +21,7 @@ if (UserAnswer === answer1) {
 }
 
 
-var questionnumber2 = "Are you also a fan Cristiano Ronaldo ? " 
+var questionnumber2 = "do you know Cristiano Ronaldo ? " 
 var answer2 = "yes" 
 
 var UserAnswer = readlineSync.question(questionnumber2);
@@ -39,8 +39,8 @@ if (UserAnswer === answer2) {
  console.log("Score is " + score);  
 }
 
-var questionnumber3 = "Tell me what is the biggest strength of Cristiano Ronaldo ? " 
-var answer3 = "mind" 
+var questionnumber3 = "what is the first jersey number of cristiano ronaldo when he started playing football? " 
+var answer3 = "28" 
 
 var UserAnswer = readlineSync.question(questionnumber3);
 
@@ -48,7 +48,7 @@ var UserAnswer = readlineSync.question(questionnumber3);
 console.log ("you entered " + UserAnswer);
 
 if (UserAnswer === answer3) {
-  console.log("great!, you know your idol very well. ")
+  console.log("great!, you know the legend very well. ")
   score = score + 1;
   console.log("Score is " + score);
   } else {
@@ -56,3 +56,44 @@ if (UserAnswer === answer3) {
   score = score - 1;
  console.log("Score is " + score);  
 }
+
+
+var questionnumber4 = "Tell me what is the biggest strength of Cristiano Ronaldo ? " 
+var answer4 = "mind" 
+
+var UserAnswer = readlineSync.question(questionnumber4);
+
+
+console.log ("you entered " + UserAnswer);
+
+if (UserAnswer === answer4) {
+  console.log("great!, you know the legend very well. ")
+  score = score + 1;
+  console.log("Score is " + score);
+  } else {
+  console.log ("you are wrong")
+  score = score - 1;
+ console.log("Score is " + score);  
+}
+
+
+
+var questionnumber5 = "Tell me how much Ballon d'Or cristiano ronaldo have ? " 
+var answer5 = "5" 
+
+var UserAnswer = readlineSync.question(questionnumber5);
+
+
+console.log ("you entered " + UserAnswer);
+
+if (UserAnswer === answer5) {
+  console.log("great!, you know the legend very well. ")
+  score = score + 1;
+  console.log("Score is " + score);
+  } else {
+  console.log ("you are wrong")
+  score = score - 1;
+ console.log("Score is " + score);  
+}
+
+
